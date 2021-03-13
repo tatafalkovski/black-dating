@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/styles.css" />
+    <title>Black dating</title>
+  </head>
+  <body>
+    <img class="main-bg" src="/images/top-area.jpg" alt="top area bg">
+    <header class="header">
+        <div class="container">
+            <div class="header__row">
+                <div class="logo">
+                    <img src="/images/logo.svg" alt="logo">
+                    <a href="index.html" class="logo__link"></a>
+                    <span class="logo__text">Black Dating</span>
+                </div>
+                <nav>
+                    <ul class="nav">
+                        <li><a class="nav__link"  href="index.html">Home</a></li>
+                        <li><a class="nav__link" href="/about-us.html">About us</a></li>
+                        <li class="join"><a class="nav__link nav__link--join" href="/join.html">Join now</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div> 
+    </header>
+
+    <main class="container">
+        <h2 class="text-center">Lorem ipsum dolor sit.</h2>
+
+        <ul class="breadcrumbs">
+            <li class="breadcrumbs__item"><a href="index.html">Home</a></li>
+            <li class="breadcrumbs__sep">&frasl;</li>
+            <li class="breadcrumbs__item breadcrumbs__item--current">Join now</li>
+        </ul>
+
+        <form class="form white-field white-field--form" validate>
+            <label for="name">First Name</label>
+            <input id="name" type="text" placeholder="First Name" required>
+            <label for="last-name">Last name</label>
+            <input id="last-name" type="text" placeholder="Last Name" required>
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Email" required>
+            <label for="tel">Phone number</label>
+            <input id="tel" type="tel" placeholder="Number">
+            <input type="submit" value="Submit" class="form__submit">
+        </form>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="two-col two-col--aic">
+                <div class="two-col__col">
+                    <div class="logo">
+                        <img src="/images/logo.svg" alt="logo">
+                        <a href="#" class="logo__link"></a>
+                        <span class="logo__text">Black Dating</span>
+                    </div>
+                </div>
+                <div class="two-col__col">
+                    <nav>
+                        <ul class="nav">
+                            <li><a class="nav__link text-center"  href="/index.html">Home</a></li>
+                            <li><a class="nav__link text-center" href="/about-us.html">About us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="two-col two-col--aic">
+                <div class="two-col__col">    
+                    © 1999 - 2021 BlackDating.com , USA <br> All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="dist/script.js"></script>
+  </body>
+</html>

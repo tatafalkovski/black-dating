@@ -1,0 +1,31 @@
+.form {
+  padding: 30px;
+  margin: 50px 0;
+}
+
+.form input {
+  display: block;
+  padding: 15px 20px;
+  border-bottom: 2px solid #eaffa7;
+  border-radius: 30px;
+  width: 100%;
+  margin: 5px 0 20px 0;
+  // box-shadow: 3px -2px 3px rgb(0 0 0 / 5%);
+}
+
+.form__submit {
+  background-color: #eaffa7;
+  color: #548ed9;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.form__submit:hover {
+  background-color: #ffa7e9;
+  color: #d94cb6;
+}
+
+.white-field--form {
+  max-width: 450px;
+}

@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "icons";
+  src: url("/icomoon/fonts/icons.eot?h9avpm");
+  src: url("/icomoon/fonts/icons.eot?h9avpm#iefix") format("embedded-opentype"),
+    url("/icomoon/fonts/icons.ttf?h9avpm") format("truetype"),
+    url("/icomoon/fonts/icons.woff?h9avpm") format("woff"),
+    url("/icomoon/fonts/icons.svg?h9avpm#icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"]::before,
+[class*=" _icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icons" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-apple:before {
+  content: "\e900";
+}
+._icon-canadian:before {
+  content: "\e901";
+}
+._icon-github:before {
+  content: "\e902";
+}
+._icon-grunt:before {
+  content: "\e903";
+}
+._icon-helloween:before {
+  content: "\e904";
+}
+._icon-helloween2:before {
+  content: "\e905";
+}
+._icon-wolf:before {
+  content: "\e906";
+}

@@ -1,0 +1,12 @@
+@mixin boxShadow($color) {
+  box-shadow: -6px 6px 11px -4px $color;
+}
+
+@mixin sectionColors($bg-color, $border, $box-shadow, $font-color) {
+  background-color: $bg-color;
+  border: 1px solid $border;
+  box-shadow: -6px 6px 11px -4px $box-shadow;
+  p {
+    color: $font-color;
+  }
+}
